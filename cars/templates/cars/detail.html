@@ -1,0 +1,16 @@
+<h1>
+    {{car.manufacturer}}
+</h1>
+<h2>
+    {{car.model}}
+</h2>
+<h3>
+    {{car.year}}
+</h3>
+
+<!-- 8 Display error message -->
+{% if error_message %}
+<p>
+    <strong>{{error_message}}</strong>
+</p>
+{% endif %}
