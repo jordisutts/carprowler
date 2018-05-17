@@ -65,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+              
 ]
 
 ROOT_URLCONF = 'carprowler.urls'
@@ -145,3 +146,5 @@ STATIC_URL = '/static/'
 
 # - Add a path for static files
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+django_heroku.settings(locals())
