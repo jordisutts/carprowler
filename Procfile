@@ -1,1 +1,1 @@
-web: gunicorn web: gunicorn mysite.wsgi --log-file -
+web : gunicorn lafusee.wsgi -b 0.0.0.0:$PORT
