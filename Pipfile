@@ -18,7 +18,7 @@ python-dateutil = "==2.6.1"
 "s3transfer" = "==0.1.13"
 stripe = "==1.79.1"
 whitenoise = "==3.3.1"
-Django = "==1.11"
+Django = "==1.11.29"
 Pillow = "==5.0.0"
 django-heroku = "*"
 
